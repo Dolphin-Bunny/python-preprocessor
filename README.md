@@ -24,7 +24,7 @@ sys.exit()
 print("Hello World!")
 ```
 
-Snekbox-compatability version. Don't use unless you need to run in Snekbox. It also runs in regular cpython, but its longer.
+Snekbox-compatability version. Don't use unless you need to run in Snekbox. It also runs in regular cpython, but its longer and can cause issues if not in snekbox.
 ```python
 import sys
 def process(lines):
