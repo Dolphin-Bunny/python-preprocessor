@@ -2,7 +2,9 @@
 
 This is sort of a preprocesser for python. It allows you to automatically make changes to code before it is run. I tried to keep this as small as possible.
 
-Paste one of these at the top of your file, provide a `process` function, and it does the rest (in theory). The actual code you want to process goes below the preprocessor.
+Paste one of these at the top of your file, provide a `process` function, and it does the rest (in theory). The actual code you want to process goes below the preprocessor. Keep in mind that the original, unprocessed code must still be valid python code.
+
+It works by using the `process` function to change the python code, runs the changed version, and then stops execution before reaching the original, unchanged code that is still at the bottom of the file. 
 
 Main version:
 ```python
