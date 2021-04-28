@@ -1,9 +1,8 @@
 # python-preprocessor
 
-#### `Why would you do this?`
-Why not?
-
 This is sort of a preprocesser for python. It allows you to automatically make changes to code before it is run. I tried to keep this as small as possible.
+
+Paste one of these at the top of your file, provide a `process` function, and it does the rest (in theory). The actual code you want to process goes below the preprocessor.
 
 Main version:
 ```python
